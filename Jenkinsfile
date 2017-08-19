@@ -27,6 +27,6 @@ node {
             app.push("${env.BUILD_NUMBER}") 
             app.push("latest")*/
         sh 'docker login -u manee2k6 -p arpitha@17'
-        sh 'docker push manee2k6/devops:nodejs-bds'
+        sh 'docker push manee2k6/dav:nodejs-bds'
        }
     }
