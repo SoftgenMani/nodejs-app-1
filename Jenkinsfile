@@ -9,7 +9,7 @@ node {
     stage('Build image') {
         /* This builds the actual image; synonymous to
          * docker build on the command line */
-        sh 'docker build -f Dockerfile -t manee2k6/devops:nodejs-bds .'
+        sh 'docker build -f Dockerfile -t manee2k6/dav:dev .'
        // app = docker.build("manee2k6/explore:${env.BUILD_NUMBER}")
         
     }
