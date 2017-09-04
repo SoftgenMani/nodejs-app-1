@@ -1,6 +1,6 @@
 # nodejs-app
 
-This repository consists of following files:
+This repository consists of following files:-
 1. main.js
 2.package.json
 3.Login screen
